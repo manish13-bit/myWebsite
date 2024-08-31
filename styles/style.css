@@ -1,18 +1,24 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #F4F4F4; /* Light background color */
+    color: #333333;
 }
 
+/* Header */
 header {
-    background-color: #333;
+    background-color: #A2C2E2; /* Pastel Blue */
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/triangles.png');
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -20,25 +26,63 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* Main Content Area */
 main {
     padding: 20px;
+    background: linear-gradient(135deg, #FFFFFF, #F8F8F8); /* Soft Gradient Background */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #2c3e50; /* Dark Gray for headings */
+}
+
+/* About Section Styles */
+.about-intro, .about-journey, .about-values {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Specific Background Colors for Sections */
+.about-intro {
+    background: linear-gradient(135deg, #F8C8C8, #FAD0C3); /* Pastel Peach Gradient */
+}
+
+.about-journey {
+    background: linear-gradient(135deg, #B6D6B6, #D9EAD3); /* Pastel Green Gradient */
+}
+
+.about-values {
+    background: linear-gradient(135deg, #D9B0E6, #F1E7F6); /* Pastel Purple Gradient */
+}
+
+/* Footer */
+footer {
+    background-color: #A2C2E2; /* Pastel Blue */
+    color: white;
     text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
-.gallery, .featured-images {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
+/* Image Styles */
 .gallery img, .featured-images img {
     margin: 10px;
     width: 300px;
@@ -46,12 +90,45 @@ main {
     border-radius: 10px;
 }
 
-footer {
-    background-color: #333;
+/* Card Component */
+.card {
+    background: #F9F9F9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #A2C2E2; /* Pastel Blue */
     color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8AB9D4; /* Slightly darker Pastel Blue */
 }
