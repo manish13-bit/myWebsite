@@ -1,12 +1,12 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@700&display=swap');
 
 /* Base Styles */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F8F8F8; /* Light Gray */
+    background-color: #F4F4F4; /* Light Gray Background */
     color: #333333;
 }
 
@@ -16,13 +16,11 @@ header {
     color: #333333;
     padding: 20px 40px;
     text-align: center;
-    border-bottom: 1px solid #E0E0E0;
-    position: relative;
-    z-index: 1000;
+    border-bottom: 2px solid #E0E0E0;
 }
 
 header h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     margin: 0;
 }
@@ -32,22 +30,23 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #333333;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
 }
 
 nav ul li a:hover {
-    color: #C4A69F; /* Elegant Beige */
+    color: #007BFF; /* Blue Accent */
 }
 
 /* Main Content Area */
@@ -62,8 +61,8 @@ main {
 
 /* Headings */
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    color: #333333; /* Dark Gray for Headings */
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
 }
 
 h1 {
@@ -89,24 +88,24 @@ h3 {
 
 /* Background Colors for Sections */
 .about-intro {
-    background-color: #F9F9F9; /* Light Gray */
+    background-color: #FFFFFF; /* White Background */
 }
 
 .about-journey {
-    background-color: #FAF9F6; /* Soft Beige */
+    background-color: #F9F9F9; /* Light Gray */
 }
 
 .about-values {
-    background-color: #F2F2F2; /* Light Gray */
+    background-color: #FFFFFF; /* White Background */
 }
 
 /* Footer */
 footer {
-    background-color: #FFFFFF; /* White Background */
+    background-color: #F4F4F4; /* Light Gray */
     color: #333333;
     text-align: center;
     padding: 20px 0;
-    border-top: 1px solid #E0E0E0;
+    border-top: 2px solid #E0E0E0;
 }
 
 /* Image Styles */
@@ -115,7 +114,7 @@ footer {
     width: 100%;
     max-width: 400px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
@@ -130,7 +129,7 @@ footer {
 
 .card h3 {
     margin-top: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Contact Form Styles */
@@ -152,18 +151,18 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #C4A69F; /* Elegant Beige */
+    background-color: #007BFF; /* Blue Accent */
     color: white;
     border: none;
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 form button:hover {
-    background-color: #B89F90; /* Slightly Darker Beige */
+    background-color: #0056b3; /* Darker Blue */
 }
 
 /* Responsive Design */
