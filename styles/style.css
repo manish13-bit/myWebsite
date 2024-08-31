@@ -9,7 +9,7 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -20,46 +20,29 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 main {
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    margin: 20px auto;
-    max-width: 1200px;
+    text-align: center;
 }
 
-h1, h2 {
-    color: #2c3e50;
+.gallery, .featured-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.about-intro, .about-journey, .about-values {
-    margin-bottom: 20px;
-}
-
-.about-intro {
-    background-color: #ecf0f1;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.about-journey {
-    background-color: #bdc3c7;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.about-values {
-    background-color: #95a5a6;
-    padding: 20px;
+.gallery img, .featured-images img {
+    margin: 10px;
+    width: 300px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -71,11 +54,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-.gallery img, .featured-images img {
-    margin: 10px;
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
 }
