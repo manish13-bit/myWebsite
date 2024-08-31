@@ -1,57 +1,152 @@
+/* Base Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #F9F9F9; /* Light background color */
+    color: #333333;
 }
 
+/* Header */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color: #F1F1F1; /* Light Gray */
+    color: #333333;
+    padding: 30px;
     text-align: center;
+    border-bottom: 1px solid #E0E0E0;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: white;
+    color: #333333;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
+nav ul li a:hover {
+    color: #007BFF; /* Blue Accent */
+}
+
+/* Main Content Area */
 main {
-    padding: 20px;
+    padding: 40px;
+    background-color: #FFFFFF; /* White Background for Content Area */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333333; /* Dark Gray for Headings */
+    margin-top: 0;
+}
+
+/* About Section Styles */
+.about-intro, .about-journey, .about-values {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Background Colors for Sections */
+.about-intro {
+    background-color: #FCE4EC; /* Light Pink */
+}
+
+.about-journey {
+    background-color: #E8F5E9; /* Light Green */
+}
+
+.about-values {
+    background-color: #E3F2FD; /* Light Blue */
+}
+
+/* Footer */
+footer {
+    background-color: #F1F1F1; /* Light Gray */
+    color: #333333;
     text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #E0E0E0;
 }
 
-.gallery, .featured-images {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
+/* Image Styles */
 .gallery img, .featured-images img {
-    margin: 10px;
-    width: 300px;
+    margin: 15px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-footer {
-    background-color: #333;
+/* Card Component */
+.card {
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF; /* Blue Accent */
     color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
