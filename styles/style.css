@@ -1,18 +1,24 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #F4F4F4; /* Light background color */
+    color: #333333;
 }
 
+/* Header */
 header {
-    background-color: #333;
+    background-color: #D8BFD8; /* Pastel Lilac */
     color: white;
     padding: 20px;
     text-align: center;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/hexagons.png');
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -29,42 +35,45 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Main Content Area */
 main {
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #FFFFFF; /* White background for content area */
     border-radius: 10px;
     margin: 20px auto;
     max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Headings */
 h1, h2 {
-    color: #2c3e50;
+    color: #2c3e50; /* Dark Gray for headings */
 }
 
+/* About Section Styles */
 .about-intro, .about-journey, .about-values {
     margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Specific Background Colors for Sections */
 .about-intro {
-    background-color: #ecf0f1;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #F5B7B1; /* Pastel Rose */
 }
 
 .about-journey {
-    background-color: #bdc3c7;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #D8BFD8; /* Pastel Lilac */
 }
 
 .about-values {
-    background-color: #95a5a6;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #EAEAEA; /* Light Gray */
 }
 
+/* Footer */
 footer {
-    background-color: #333;
+    background-color: #D8BFD8; /* Pastel Lilac */
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -73,9 +82,53 @@ footer {
     bottom: 0;
 }
 
+/* Image Styles */
 .gallery img, .featured-images img {
     margin: 10px;
     width: 300px;
     height: auto;
     border-radius: 10px;
+}
+
+/* Card Component */
+.card {
+    background: #F9F9F9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #D8BFD8; /* Pastel Lilac */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #C4A9C9; /* Slightly darker Pastel Lilac */
 }
