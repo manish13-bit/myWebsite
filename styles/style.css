@@ -1,26 +1,26 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
 
 /* Base Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F9F9F9; /* Very Light Gray Background */
+    background-color: #F4F4F4; /* Very Light Gray Background */
     color: #333333;
 }
 
 /* Header */
 header {
-    background-color: #333333; /* Dark Background */
+    background-color: #000000; /* Black Background */
     color: #FFFFFF;
     padding: 20px 40px;
     text-align: center;
-    border-bottom: 1px solid #444444; /* Slightly Lighter Gray */
+    border-bottom: 1px solid #333333; /* Darker Gray */
 }
 
 header h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin: 0;
     font-size: 36px;
@@ -42,12 +42,12 @@ nav ul li {
 nav ul li a {
     color: #FFFFFF;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
 }
 
 nav ul li a:hover {
-    color: #C4A69F; /* Elegant Beige Accent */
+    color: #E5E5E5; /* Light Gray Accent */
 }
 
 /* Main Content Area */
@@ -62,7 +62,7 @@ main {
 
 /* Headings */
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
 
@@ -73,10 +73,12 @@ h1 {
 
 h2 {
     font-size: 28px;
+    margin-bottom: 10px;
 }
 
 h3 {
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 /* Section Styles */
@@ -90,11 +92,11 @@ section {
 
 /* Footer */
 footer {
-    background-color: #333333; /* Dark Background */
+    background-color: #000000; /* Black Background */
     color: #FFFFFF;
     text-align: center;
     padding: 20px 0;
-    border-top: 1px solid #444444;
+    border-top: 1px solid #333333;
 }
 
 /* Image Styles */
@@ -118,7 +120,7 @@ footer {
 
 .card h3 {
     margin-top: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Contact Form Styles */
@@ -140,18 +142,18 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #C4A69F; /* Elegant Beige */
+    background-color: #333333; /* Dark Gray */
     color: white;
     border: none;
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 form button:hover {
-    background-color: #B89F90; /* Slightly Darker Beige */
+    background-color: #555555; /* Slightly Lighter Dark Gray */
 }
 
 /* Responsive Design */
