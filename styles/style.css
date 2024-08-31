@@ -1,26 +1,26 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
 
 /* Base Styles */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F4F4F4; /* Light Gray Background */
+    background-color: #F2F2F2; /* Light Gray Background */
     color: #333333;
 }
 
 /* Header */
 header {
-    background-color: #FFFFFF; /* White Background */
-    color: #333333;
+    background-color: #333333; /* Dark Background */
+    color: #FFFFFF;
     padding: 20px 40px;
     text-align: center;
-    border-bottom: 2px solid #E0E0E0;
+    border-bottom: 2px solid #444444; /* Slightly Lighter Gray */
 }
 
 header h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     margin: 0;
 }
@@ -39,14 +39,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333333;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
 }
 
 nav ul li a:hover {
-    color: #007BFF; /* Blue Accent */
+    color: #C4A69F; /* Elegant Beige Accent */
 }
 
 /* Main Content Area */
@@ -61,7 +61,7 @@ main {
 
 /* Headings */
 h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #333333;
 }
 
@@ -88,24 +88,24 @@ h3 {
 
 /* Background Colors for Sections */
 .about-intro {
-    background-color: #FFFFFF; /* White Background */
+    background-color: #F5F5F5; /* Light Gray */
 }
 
 .about-journey {
-    background-color: #F9F9F9; /* Light Gray */
+    background-color: #FFFFFF; /* White Background */
 }
 
 .about-values {
-    background-color: #FFFFFF; /* White Background */
+    background-color: #F9F9F9; /* Very Light Gray */
 }
 
 /* Footer */
 footer {
-    background-color: #F4F4F4; /* Light Gray */
-    color: #333333;
+    background-color: #333333; /* Dark Background */
+    color: #FFFFFF;
     text-align: center;
     padding: 20px 0;
-    border-top: 2px solid #E0E0E0;
+    border-top: 2px solid #444444;
 }
 
 /* Image Styles */
@@ -129,7 +129,7 @@ footer {
 
 .card h3 {
     margin-top: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Contact Form Styles */
@@ -151,7 +151,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #007BFF; /* Blue Accent */
+    background-color: #C4A69F; /* Elegant Beige */
     color: white;
     border: none;
     padding: 15px 20px;
@@ -162,7 +162,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3; /* Darker Blue */
+    background-color: #B89F90; /* Slightly Darker Beige */
 }
 
 /* Responsive Design */
