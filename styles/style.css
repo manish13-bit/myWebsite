@@ -1,93 +1,57 @@
-/* Import Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
-
-/* Global Styles */
 body {
-    font-family: 'Georgia', serif;
-    background-color: #f2f2e6; /* Rich pastel background */
-    color: #333; /* Darker text color for better contrast */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center; /* Center align text content */
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Header Styles */
 header {
-    background-color: #a7907c; /* Softer, more complementary color for header */
-    color: #fff;
-    padding: 10px 0; /* Reduced padding for smaller header size */
-    font-size: 20px; /* Smaller font size for a balanced look */
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* Main Content Styles */
-main {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center align main content */
-}
-
-/* Footer Styles */
-footer {
-    background-color: #4a4a4a; /* Different color for footer */
-    color: #ccc;
+    background-color: #333;
+    color: white;
     padding: 10px 0;
-    font-size: 1em;
-    font-family: 'Georgia', serif;
     text-align: center;
 }
 
-/* Gallery Styles */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px; /* Add some space between images */
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.gallery img {
-    width: 300px; /* Standardize image width */
-    height: 200px; /* Standardize image height */
-    object-fit: cover; /* Ensure images cover the entire area without distortion */
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery, .featured-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img, .featured-images img {
+    margin: 10px;
+    width: 300px;
+    height: auto;
     border-radius: 10px;
 }
 
-/* Heading Styles */
-h1, h2, h3 {
-    color: #333; /* Ensure headings are visible */
-    font-family: 'Playfair Display', serif;
-}
-
-/* Paragraph Styles */
-p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin: 20px 0;
-    font-family: 'Georgia', serif;
-}
-
-/* Button Styles */
-button {
-    background-color: #b38a65;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-button:hover {
-    background-color: #9c7954;
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
