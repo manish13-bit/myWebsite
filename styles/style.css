@@ -19,10 +19,10 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #b38a65; /* Softer, more complementary color for header */
+    background-color: #a7907c; /* Softer, more complementary color for header */
     color: #fff;
     padding: 10px 0; /* Reduced padding for smaller header size */
-    font-size: 2em; /* Smaller font size for a balanced look */
+    font-size: 20px; /* Smaller font size for a balanced look */
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     text-align: center;
