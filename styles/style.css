@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #666;
     color: #333;
 }
 
 header {
     background-color: #333;
-    color: white;
+    color: #666;
     padding: 10px 0;
     text-align: center;
 }
@@ -41,7 +41,7 @@ main {
 
 .gallery img, .featured-images img {
     margin: 10px;
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 10px;
 }
