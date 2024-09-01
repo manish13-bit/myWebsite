@@ -19,10 +19,10 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #d2a679; /* Distinct color for header */
+    background-color: #b38a65; /* Softer, more complementary color for header */
     color: #fff;
-    padding: 20px 0;
-    font-size: 2.5em;
+    padding: 10px 0; /* Reduced padding for smaller header size */
+    font-size: 2em; /* Smaller font size for a balanced look */
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     text-align: center;
@@ -30,7 +30,7 @@ header {
 
 /* Main Content Styles */
 main {
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
@@ -48,10 +48,18 @@ footer {
     text-align: center;
 }
 
-/* Image Styles */
-img {
-    max-width: 100%;
-    height: auto;
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Add some space between images */
+}
+
+.gallery img {
+    width: 300px; /* Standardize image width */
+    height: 200px; /* Standardize image height */
+    object-fit: cover; /* Ensure images cover the entire area without distortion */
     border-radius: 10px;
 }
 
@@ -71,7 +79,7 @@ p {
 
 /* Button Styles */
 button {
-    background-color: #d2a679;
+    background-color: #b38a65;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -81,5 +89,5 @@ button {
 }
 
 button:hover {
-    background-color: #b38a65;
+    background-color: #9c7954;
 }
