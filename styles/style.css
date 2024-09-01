@@ -41,8 +41,8 @@ main {
 
 .gallery img, .featured-images img {
     margin: 10px;
-    width: 250px;
-    height: auto;
+    width: 300px;
+    height: 200px;
     border-radius: 10px;
 }
 
